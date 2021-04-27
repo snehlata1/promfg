@@ -175,4 +175,34 @@ body{font-family: 'Objectivity';}
 	height: auto;
 	text-align: center;
 }
+.bottom-inner {
+	min-height: 120px;
+	flex-wrap: wrap;
+}
+.bottom-box {
+	display: none;
+}
+.box-inner-botom.box-bottom-3 .image-box-main {
+	left: 10%;
+}
+.image-box-main, .box-bottom-green .image-box-main {
+	width: 70%;
+}
+.image-box-main h3 {
+	font-size: 14px;
+}
+.image-box h4 {
+	font-size: 14px;top: 48%;
+}
+}
+@media  screen and (max-width: 599px) {
+.box-inner-botom.box-bottom-3 .image-box-main {
+	left: 0;
+}
+.bottom-inner {
+	min-height: 150px;
+}
+.image-box-main, .box-bottom-green .image-box-main {
+	width: 100%;
+}
 }

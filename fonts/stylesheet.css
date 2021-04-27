@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Objectivity';
+    src: url('Objectivity-Light.eot');
+    src: local('Objectivity Light'), local('Objectivity-Light'),
+        url('Objectivity-Light.eot?#iefix') format('embedded-opentype'),
+        url('Objectivity-Light.woff2') format('woff2'),
+        url('Objectivity-Light.woff') format('woff'),
+        url('Objectivity-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('Objectivity-Regular.eot');
+    src: local('Objectivity Regular'), local('Objectivity-Regular'),
+        url('Objectivity-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Objectivity-Regular.woff2') format('woff2'),
+        url('Objectivity-Regular.woff') format('woff'),
+        url('Objectivity-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('Objectivity-Medium.eot');
+    src: local('Objectivity Medium'), local('Objectivity-Medium'),
+        url('Objectivity-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Objectivity-Medium.woff2') format('woff2'),
+        url('Objectivity-Medium.woff') format('woff'),
+        url('Objectivity-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('Objectivity-Bold.eot');
+    src: local('Objectivity Bold'), local('Objectivity-Bold'),
+        url('Objectivity-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Objectivity-Bold.woff2') format('woff2'),
+        url('Objectivity-Bold.woff') format('woff'),
+        url('Objectivity-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('Objectivity-Thin.eot');
+    src: local('Objectivity Thin'), local('Objectivity-Thin'),
+        url('Objectivity-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Objectivity-Thin.woff2') format('woff2'),
+        url('Objectivity-Thin.woff') format('woff'),
+        url('Objectivity-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

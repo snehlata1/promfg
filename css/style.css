@@ -1,0 +1,178 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('../fonts/Objectivity-Light.eot');
+    src: local('../fonts/Objectivity Light'), local('Objectivity-Light'),
+        url('../fonts/Objectivity-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Objectivity-Light.woff2') format('woff2'),
+        url('../fonts/Objectivity-Light.woff') format('woff'),
+        url('../fonts/Objectivity-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('../fonts/Objectivity-Regular.eot');
+    src: local('../fonts/Objectivity Regular'), local('Objectivity-Regular'),
+        url('../fonts/Objectivity-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Objectivity-Regular.woff2') format('woff2'),
+        url('../fonts/Objectivity-Regular.woff') format('woff'),
+        url('../fonts/Objectivity-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('../fonts/Objectivity-Medium.eot');
+    src: local('../fonts/Objectivity Medium'), local('Objectivity-Medium'),
+        url('../fonts/Objectivity-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Objectivity-Medium.woff2') format('woff2'),
+        url('../fonts/Objectivity-Medium.woff') format('woff'),
+        url('../fonts/Objectivity-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('../fonts/Objectivity-Bold.eot');
+    src: local('../fonts/Objectivity Bold'), local('Objectivity-Bold'),
+        url('../fonts/Objectivity-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Objectivity-Bold.woff2') format('woff2'),
+        url('../fonts/Objectivity-Bold.woff') format('woff'),
+        url('../fonts/Objectivity-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('../fonts/Objectivity-Thin.eot');
+    src: local('../fonts/Objectivity Thin'), local('Objectivity-Thin'),
+        url('../fonts/Objectivity-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Objectivity-Thin.woff2') format('woff2'),
+        url('../fonts/Objectivity-Thin.woff') format('woff'),
+        url('../fonts/Objectivity-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{font-family: 'Objectivity';}
+.inner-box {
+	display: flex;
+	justify-content: space-between;
+}
+.box {
+	width: 25%;height: 100%;	border-left: 1px solid #f3f4f3;
+	border-right: 1px solid #f3f4f3;
+}
+.box h2 {
+	text-align: center;
+	color: #ffff;
+	padding: 10px;font-size: 13px;
+    font-weight: 500;
+}
+.box1 h2 {	background: #0070bd;}
+.box2 h2 {	background: #f48a26;}
+.box3 h2 {	background: #fbaf17;}
+.box4 h2 {	background: #38b54a;}
+
+.box1 p {	color: #0070bd;}
+.box2 p {	color: #f48a26;}
+.box3 p {	color: #fbaf17;}
+.box4 p {	color: #38b54a;}
+.peragraph {
+	background: #000;
+	padding: 20px;min-height: 100px;font-size: 13px;
+    line-height: 20px;
+}
+.bottom-inner {
+	display: flex;
+	background: #e5e5e5;
+	min-height: 200px;
+}
+.bottom-box {
+	width: 25%;
+	border-left: 1px solid #f3f4f3;
+    border-right: 1px solid #f3f4f3;
+}
+
+.image-box-main img {
+	width: 100%;
+}
+.image-box-main {
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	left: 0;
+	width: 50%;
+	transform: translatey(-50%);
+}
+.box-inner-botom {
+	position: relative;
+}.image-box h4 {
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+	color: #fff;
+	font-size: 2.5vh;
+	font-weight: bold;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.image-box {
+	position: relative;
+}
+.image-box-main h3 {
+	font-size: 19px;
+	font-weight: 400;
+}
+.bg-white {
+	background: #fff;
+}
+.box-inner-botom.box-bottom-3 .image-box-main {
+	left: 180px;
+}
+.box-bottom-green .image-box-main {
+	left: 50%;
+	width: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/************responsive************/
+@media  screen and (max-width: 1024px) {
+    .image-box h4 {
+        font-size: 1.5vh;
+    }
+}
+@media  screen and (max-width: 991px) {
+.peragraph {
+	height: 150px;
+}
+}
+@media  screen and (max-width: 767px) {
+.inner-box{
+	flex-wrap: wrap;
+}
+.box {
+	width: 100%;
+}
+.peragraph {
+	height: auto;
+	text-align: center;
+}
+}

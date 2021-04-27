@@ -123,12 +123,12 @@ body{font-family: 'Objectivity';}
 /************responsive************/
 @media  screen and (max-width: 1024px) {
     .image-box h4 {
-        font-size: 1.5vh;
+        font-size: 1.5vh !important;
     }
 }
 @media  screen and (max-width: 991px) {
 .peragraph {
-	height: 150px;
+	height: 150px !important;
 }
 }
 @media  screen and (max-width: 767px) {
@@ -143,33 +143,33 @@ body{font-family: 'Objectivity';}
 	text-align: center;
 }
 .bottom-inner {
-	min-height: 120px;
+	min-height: 120px !important;
 	flex-wrap: wrap;
 }
 .bottom-box {
 	display: none;
 }
 .box-inner-botom.box-bottom-3 .image-box-main {
-	left: 10%;
+	left: 10% !important;
 }
 .image-box-main, .box-bottom-green .image-box-main {
-	width: 70%;
+	width: 70% !important;
 }
 .image-box-main h3 {
-	font-size: 14px;
+	font-size: 14px !important;
 }
 .image-box h4 {
-	font-size: 14px;top: 48%;
+	font-size: 14px;top: 48% !important;
 }
 }
 @media  screen and (max-width: 599px) {
 .box-inner-botom.box-bottom-3 .image-box-main {
-	left: 0;
+	left: 0 !important;
 }
 .bottom-inner {
-	min-height: 150px;
+	min-height: 150px !important;
 }
 .image-box-main, .box-bottom-green .image-box-main {
-	width: 100%;
+	width: 100% !important;
 }
 }

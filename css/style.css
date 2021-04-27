@@ -99,26 +99,6 @@ body{font-family: 'Objectivity';}
 	padding: 20px;min-height: 100px;font-size: 13px;
     line-height: 20px;
 }
-.bottom-box {
-	width: 25%;
-	border-left: 1px solid #f3f4f3;
-    border-right: 1px solid #f3f4f3;
-}
-
-.image-box-main img {
-	width: 100%;
-}
-.bg-white {
-	background: #fff;
-}
-.box-inner-botom.box-bottom-3 .image-box-main {
-	left: 180px;
-}
-.box-bottom-green .image-box-main {
-	left: 50%;
-	width: 50%;
-	transform: translate(-50%,-50%);
-}
 
 /************responsive************/
 @media  screen and (max-width: 1024px) {
@@ -139,8 +119,8 @@ body{font-family: 'Objectivity';}
 	width: 100%;
 }
 .peragraph {
-	height: auto;
-	text-align: center;
+	height: auto !important;
+	text-align: center !important;
 }
 .bottom-inner {
 	min-height: 120px !important;
